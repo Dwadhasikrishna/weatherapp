@@ -1,0 +1,50 @@
+.weather-card1{
+    
+    box-shadow: 0 8px 8px 0 rgb(15, 13, 12);
+    /* width: 900px; */
+    background-color: rgb(15, 138, 195);
+    transition: all 0.3s;
+   
+   
+}
+
+.weather-card1:hover{
+   transform: scale(1.15);
+}
+
+.card-title{
+   color: white;
+   font-weight: bold;
+}
+
+.card-subtitle{
+   font-weight: lighter;
+   color: white;
+}
+
+.weather-card {
+   border: 1px solid rgb(130, 116, 99);
+   border-radius: 10px;
+   background-color: rgb(15, 138, 195);
+   box-shadow: 0 4px 4px 0 rgb(130, 116, 99);
+}
+
+
+
+.weather-card h5{
+   color: white;
+   font-weight: lighter;
+  
+}
+
+.weather-card h1{
+   color: white;
+   font-weight: lighter;
+  
+}
+
+.weather-card img{
+   width: 100%;
+   background-size: cover;
+   height:250px;
+}
